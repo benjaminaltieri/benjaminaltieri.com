@@ -1,0 +1,15 @@
+{% extends "after-dark/templates/index.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="{{ get_url(path="about.css", trailing_slash=false) | safe }}">
+{% endblock css %}
+
+{% block extra_head %}
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+{% endblock extra_head %}
+
+{% block content %}
+{{ section.content | safe }}
+{% endblock content %}

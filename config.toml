@@ -22,10 +22,11 @@ taxonomies = [
 ]
 
 [extra]
-# Put all your custom variables here
+author = "Cheeseblinces"
 after_dark_menu = [
-    {url = "$BASE_URL", name = "Zoomzoom"},
-    {url = "$BASE_URL/categories", name = "Categories"},
-    {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "https://google.com", name = "Google"},
+    {url = "$BASE_URL", name = "benjaminaltieri.com"},
+    {url = "$BASE_URL/about", name = "About"},
+    {url = "https://github.com/benjaminaltieri", name = "Github"},
+    {url = "https://www.linkedin.com/in/benjaminaltieri", name = "LinkedIn"},
 ]
+after_dark_title = "Ben Altieri"
