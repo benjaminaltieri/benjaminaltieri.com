@@ -13,3 +13,14 @@ categories = ["foo"]
 
 blahrg
 
+## Some code
+
+Hey check out this code
+
+```python
+import numpy as np
+
+def check_for_null(arr):
+    return np.isnull(arr)
+```
+
