@@ -1,8 +1,8 @@
 +++
 
-title = "Blooly folly"
+title = "Main content page"
 
-description = "A folly of investigation"
+description = ""
 
 # Used to sort pages by "date", "weight" or "none". See below for more information.
 #sort_by = "none"
@@ -63,16 +63,4 @@ paginate_by = 5
 
 
 +++
-
-# Welcome to the site!
-
-This is a demonstration of a static site
-
-## About Me
-
-alkdf;le fa;lejfovj fjaekjflkj laksdf
-
-## Learn More
-
-alskjfowefluendlkjsdflkjaf alflskdflakjsdbflksdf
 

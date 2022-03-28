@@ -1,17 +1,17 @@
 +++
 
-title = "This is a post!"
+title = "Testing 1-2-3"
 
-date = 2020-02-27
+date = 2022-02-22
 
 [taxonomies]
-categories = ["foo"]
+categories = ["random"]
 
 +++
 
-# This is a post!
+# Testing 1-2-3
 
-blahrg
+Nothing to see here yet. Some day inspiration may strike and I'll add some content. In the mean time, check out the [about section](/about)!
 
 ## Some code
 
