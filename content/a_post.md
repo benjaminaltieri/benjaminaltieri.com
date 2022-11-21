@@ -1,15 +1,15 @@
 +++
 
-title = "Testing 1-2-3"
+title = "Hello world!"
 
-date = 2022-02-22
+date = 2022-11-20
 
 [taxonomies]
-categories = ["random"]
+categories = ["test", "python"]
 
 +++
 
-# Testing 1-2-3
+# Hello world!
 
 Nothing to see here yet. Some day inspiration may strike and I'll add some content. In the mean time, check out the [about section](/about)!
 
