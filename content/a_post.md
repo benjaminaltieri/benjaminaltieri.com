@@ -1,15 +1,26 @@
 +++
 
-title = "This is a post!"
+title = "Hello world!"
 
-date = 2020-02-27
+date = 2022-11-20
 
 [taxonomies]
-categories = ["foo"]
+categories = ["test", "python"]
 
 +++
 
-# This is a post!
+# Hello world!
 
-blahrg
+Nothing to see here yet. Some day inspiration may strike and I'll add some content. In the mean time, check out the [about section](/about)!
+
+## Some code
+
+Hey check out this code
+
+```python
+import numpy as np
+
+def check_for_null(arr):
+    return np.isnull(arr)
+```
 
