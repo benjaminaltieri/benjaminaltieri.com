@@ -1,0 +1,24 @@
+/* Custom Typography */
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* Apply sans-serif font to body text for readability */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Apply monospace font to headers for technical feel */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Apply monospace to navigation links to match headers */
+.menu a,
+.logo a {
+    font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Keep code blocks with monospace (preserve existing behavior) */
+code, pre {
+    font-family: 'Fira Code', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
