@@ -1,8 +1,8 @@
 +++
 
-title = "Main content page"
+title = "Ben Altieri"
 
-description = ""
+description = "Software engineer focused on AI/ML, cloud infrastructure, and embedded systems."
 
 # Used to sort pages by "date", "weight" or "none". See below for more information.
 #sort_by = "none"
@@ -63,4 +63,16 @@ paginate_by = 5
 
 
 +++
+
+# Hi, I'm Ben
+
+I'm a software engineer with experience in AI/ML, cloud infrastructure, and embedded systems. I build systems that solve real problems, from firmware on resource-constrained devices to machine learning platforms in the cloud.
+
+This site serves as my professional landing page and a space for sharing technical projects and writing when inspiration strikes.
+
+## Navigate
+
+- **[About](/about/)** - Background, experience, and current work
+- **[GitHub](https://github.com/benjaminaltieri)** - Code and projects
+- **[LinkedIn](https://www.linkedin.com/in/benjaminaltieri)** - Professional profile and connections
 

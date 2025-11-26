@@ -14,18 +14,22 @@ description = "A brief intro on my background"
 
 # Welcome!
 
-Welcome to my small corner of the interwebs. Mostly a placeholder at the moment but feel free to click around!
+I'm a software engineer with experience spanning embedded systems, cloud infrastructure, and AI/ML engineering. I enjoy building systems that bridge the physical and digital worlds, and I'm passionate about applying technology to meaningful problems, especially in climate and clean energy.
 
-## My Background
+## Background
 
-I am a software developer, a dad and life-long learner. I am passionate about music, technology and solving the challenge of global climate change.
+I started my career in embedded software, designing sensor systems and firmware for hardware devices. There's something satisfying about writing code that directly interacts with the physical world: reading temperature sensors, controlling actuators, or optimizing power consumption on resource-constrained devices.
 
-I've spent a large portion of my career in the embedded software space, designing systems that collect data from various sensors in the physical world and translate that data into meaningful outputs for the given application. Writing software for embedded devices feels "real" and it's a lot of fun!
+Over time, my work expanded into cloud infrastructure and data systems, where I've built platforms for processing and analyzing sensor data at scale. This shift gave me a broader perspective on how embedded devices fit into larger system architectures, from edge computing to cloud analytics.
 
-Currently I am working in areas related to climate tech, and increasingly looking to branch out in both my knowledge of the challenges and the solutions currently being developed. A specific area of interest is fossil free energy generation and storage technologies and their integration in our modernizing electric grids.
+## Current Work
 
-## Learn More
+These days, I'm focused on AI/ML engineering: building and deploying machine learning systems, working with large language models, and exploring AI agent frameworks. I'm particularly interested in how AI can be applied to climate tech challenges, from optimizing energy systems to improving environmental monitoring.
 
-If you would like to connect with me or set up a chat, look me up on linkedin and send me a message!
+I'm also a dad, lifelong learner, and music enthusiast. Outside of software, you'll find me reading about fossil-free energy technologies, tinkering with side projects, or trying to keep up with my kids.
+
+## Let's Connect
+
+If you'd like to discuss technology, climate tech, or potential collaborations, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/benjaminaltieri) or check out my work on [GitHub](https://github.com/benjaminaltieri).
 
 

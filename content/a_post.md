@@ -4,6 +4,8 @@ title = "Hello world!"
 
 date = 2022-11-20
 
+draft = true
+
 [taxonomies]
 categories = ["test", "python"]
 

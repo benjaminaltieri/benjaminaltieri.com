@@ -11,11 +11,11 @@ description = "Bits and bites."
 default_language = "en"
 
 # Whether to generate a RSS feed automatically
-generate_feed = true
+generate_feeds = true
 # 'atom.xml' (default if unspecified) and 'rss.xml' are officially supported
-# values for feed_filename in this theme. All other filenames will assume a
+# values for feed_filenames in this theme. All other filenames will assume a
 # link type of 'application/rss+xml'.
-# feed_filename = "atom.xml"
+feed_filenames = ["atom.xml"]
 
 # Theme name to use.
 # NOTE: should not need to mess with this if you are using zerm directly, i.e. cloning the
@@ -25,8 +25,12 @@ theme = "zerm"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# Markdown and syntax highlighting configuration
+[markdown]
 # Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
 # Syntax highlighting theme. See:
@@ -35,12 +39,10 @@ highlight_code = true
 highlight_theme = "axar" # Other dark themes that work: "1337", "agola-dark",
                          # "visual-studio-dark"
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-
 taxonomies = [
     {name = "categories"},
     {name = "tags"},
+    {name = "technologies"},
 ]
 
 [extra]
@@ -69,7 +71,7 @@ theme_color = "red"
 # few small tweaks to make rather than a major rehaul to the theme.
 # It would be best to make this a proper .sass or .scss file in sass/ rather
 # than placing in static/
-# custom_css = "custom.css"
+custom_css = "custom.css"
 
 # How many menu items to show on desktop. if you set this to 0, only submenu
 # button will be visible.
