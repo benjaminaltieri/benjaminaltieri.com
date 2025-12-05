@@ -95,7 +95,7 @@ center = true
 # copyright = "copyright notice here"
 
 # What is displayed in the top left corner of the website. Default is zerm.
-logo_text = "BITS AND BITES"
+logo_text = ":: SYSTEM_LOG"
 
 # Link in logo. Default returns you to $BASE_URL.
 logo_home_link = "/"

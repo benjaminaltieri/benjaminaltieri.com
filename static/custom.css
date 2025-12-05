@@ -22,3 +22,107 @@ h1, h2, h3, h4, h5, h6 {
 code, pre {
     font-family: 'Fira Code', Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+/* Full System Stack Visualization */
+.system-stack {
+    display: grid;
+    grid-template-columns: 0.75fr 2fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.system-stack-supporting {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.system-stack-supporting .stack-layer {
+    height: 100%;
+}
+
+.system-stack-supporting .stack-layer-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.system-stack-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.stack-layer {
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+    padding: 1.5rem;
+    background: rgba(255, 98, 102, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stack-layer:hover {
+    transform: translateX(4px);
+    box-shadow: -4px 4px 0 var(--accent);
+}
+
+.stack-layer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--accent-alpha-70);
+}
+
+.stack-layer-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0;
+}
+
+.stack-layer-context {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--accent-alpha-70);
+    margin: 0;
+}
+
+.stack-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.stack-skill {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background: var(--accent-alpha-20);
+    border: 1px solid var(--accent-alpha-70);
+    border-radius: 3px;
+    font-size: 0.9rem;
+    color: var(--color);
+    white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .system-stack {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .stack-layer-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .stack-skill {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.6rem;
+    }
+}
