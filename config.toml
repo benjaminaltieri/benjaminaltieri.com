@@ -104,9 +104,7 @@ logo_home_link = "/"
 # NOTE: `$BASE_URL/` must be included in the url name.
 main_menu = [
               {url="", name="home"},
-              {url="/projects/", name="projects"},
               {url="/about/", name="about"},
-              {url="/uses/", name="uses"},
               {url="https://github.com/benjaminaltieri", name="github", external=true},
               {url="https://www.linkedin.com/in/benjaminaltieri", name="linkedin", external=true},
 ]
