@@ -37,7 +37,9 @@ benjaminaltieri.com/
 ├── themes/
 │   └── zerm/                # Git submodule (must be initialized before building)
 ├── .gitmodules              # Submodule configuration for zerm theme
-└── CLAUDE.md                # This file
+├── CLAUDE.md                # This file — AI assistant project guide
+├── STYLE_GUIDE.md           # Tone, voice, and visual identity reference
+└── ROADMAP.md               # Ideas and future development tasks
 ```
 
 ## Build & Development Commands
@@ -122,6 +124,20 @@ Key settings an AI assistant should be aware of:
 | `enable_katex` | `true` | Math rendering available |
 | `compile_sass` | `true` | Theme Sass auto-compiled |
 | `build_search_index` | `true` | Search index generated |
+
+## Site Identity & Content Direction
+
+This is a **professional landing page first, blog second**. The home page renders intro content as an article (not a post list) via a custom `index.html` override. Blog posts are secondary and will appear only when published content exists.
+
+**Brand aesthetic**: Terminal-inspired. The `:: SYSTEM_LOG` logo, monospaced headings (JetBrains Mono), accent-bordered boxes, and hover animations that mimic cursor movement all reinforce a developer/systems-engineer identity. This is deliberate — preserve it in new content and styling.
+
+**Content tone**: First-person, direct, professional but human. Narrative framing over resume-style bullet lists. No em-dashes. Personal touches (interests, family) are welcome when natural.
+
+**The Full System Stack** (`content/about/_index.md`) is the primary skills visualization and a living document — update it as the stack evolves. It represents career breadth across hardware, edge, cloud, and platform automation.
+
+For detailed guidance on writing tone, visual patterns, and CSS conventions, see [`STYLE_GUIDE.md`](STYLE_GUIDE.md).
+
+For planned features and content ideas, see [`ROADMAP.md`](ROADMAP.md).
 
 ## Key Conventions
 
