@@ -149,6 +149,34 @@ For planned features and content ideas, see [`ROADMAP.md`](ROADMAP.md).
 6. **Embedded HTML in content** — the About page uses raw HTML blocks within Markdown for the system stack visualization. This is a valid Zola pattern.
 7. **External links in menu** — menu items with `external=true` open in new tabs.
 
+## Development & Review Workflow
+
+Vercel is connected via Git integration. Every push to a PR branch generates a **preview deployment** automatically.
+
+### Reviewing changes
+
+1. Push changes to a feature branch and open a PR against `master`.
+2. Vercel will comment a preview URL on the PR within a few minutes.
+3. Use that preview URL to visually verify the deployed site before merging.
+4. Merging to `master` triggers the production deploy to benjaminaltieri.com.
+
+### Local sessions (Claude Code CLI with Playwright MCP)
+
+When `zola` is available locally and a Playwright MCP server is configured:
+
+1. Initialize the theme submodule: `git submodule update --init`
+2. Start the dev server: `zola serve` (serves at `http://127.0.0.1:1111`)
+3. Use Playwright MCP to screenshot and verify pages during development.
+4. Before finalizing, still open a PR so the Vercel preview deployment can be reviewed.
+
+### Remote sessions (Claude Code web)
+
+`zola` and outbound network access to the live site are not available in remote sessions. The review loop is:
+
+1. Make changes, commit, push, and open a PR.
+2. Direct the user to the Vercel preview URL on the GitHub PR for visual review.
+3. There is no way to build or serve the site locally in this environment.
+
 ## Common Tasks
 
 ### Changing the site branding
